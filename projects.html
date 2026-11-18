@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mihraj Mashhoor K — Completed Projects &amp; Engineering Showcase</title>
+  <meta name="description" content="Verified production platforms, client-side cybersecurity utilities, and Linux systems software built by Mihraj Mashhoor K. Complete with GitHub repositories and live deployments.">
+  <link rel="canonical" href="https://portfolio.endlessus.in/projects.html">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+  <div class="site-wrapper">
+    <!-- Header / Navigation -->
+    <header class="header">
+      <div class="container header-inner">
+        <a href="/" class="logo-brand" aria-label="Mihraj Mashhoor K Home">
+          <div class="logo-icon">
+            <svg width="18" height="18" viewBox="0 0 32 32" fill="none">
+              <path d="M9 22V10L16 16L23 10V22" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <span>Mihraj Mashhoor K</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="nav-desktop" aria-label="Primary Navigation">
+          <ul class="nav-links">
+            <li><a href="/" class="nav-link">Home</a></li>
+            <li><a href="/projects.html" class="nav-link active">Projects</a></li>
+            <li><a href="/certifications.html" class="nav-link">Certifications</a></li>
+            <li><a href="/resume.html" class="nav-link">Web Resume</a></li>
+            <li><a href="/#contact" class="nav-link">Contact</a></li>
+          </ul>
+
+          <div class="nav-actions">
+            <a href="/assets/docs/Mihraj_Mashhoor_K_CV.pdf" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">
+              <span>Download CV</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            </a>
+          </div>
+        </nav>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile Navigation Drawer -->
+      <div id="mobile-nav" class="mobile-nav" aria-label="Mobile Navigation">
+        <ul class="mobile-nav-links">
+          <li><a href="/" class="mobile-nav-link">Home</a></li>
+          <li><a href="/projects.html" class="mobile-nav-link active">Projects</a></li>
+          <li><a href="/certifications.html" class="mobile-nav-link">Certifications</a></li>
+          <li><a href="/resume.html" class="mobile-nav-link">Web Resume</a></li>
+          <li><a href="/#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <div style="margin-top: 16px;">
+          <a href="/assets/docs/Mihraj_Mashhoor_K_CV.pdf" class="btn btn-primary" style="width: 100%;" target="_blank" rel="noopener noreferrer">
+            <span>Download CV (PDF)</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Page Header -->
+      <section class="page-header-section">
+        <div class="container">
+          <div class="page-header-content">
+            <span class="section-tag">Engineering Showcase</span>
+            <h1 class="page-title">Completed Projects &amp; Software Platforms</h1>
+            <p class="page-desc">Authentic portfolio of full-stack production platforms, client-side cybersecurity utilities, and Linux systems engineering. Every project is backed by active public repositories and verified implementations.</p>
+
+            <!-- Controls: Filter & Search -->
+            <div class="controls-bar">
+              <div class="filter-group">
+                <button class="filter-btn active" data-filter="all">All Projects (6)</button>
+                <button class="filter-btn" data-filter="platform">Full-Stack Platforms (3)</button>
+                <button class="filter-btn" data-filter="security">Security Toolkits (2)</button>
+                <button class="filter-btn" data-filter="systems">Systems &amp; AI (2)</button>
+              </div>
+
+              <div class="search-box">
+                <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                <input type="text" class="search-input" placeholder="Search by tech (e.g. Socket.IO, Nmap, SQLite)..." aria-label="Search projects">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Grid -->
+      <section class="container" style="padding: 40px 0 80px;">
+        <div class="projects-grid">
+          <!-- 1. Quiz Platform -->
+          <div class="project-card featured-platform filterable-card" data-category="platform">
+            <div class="project-top">
+              <div class="project-type-row">
+                <span class="project-category">Full-Stack Real-Time Platform</span>
+                <span class="project-badge badge-completed">Completed Platform</span>
+              </div>
+              <h2 class="project-title" style="font-size: 1.45rem;">Quiz Platform — Real-Time Multiplayer Quiz Engine</h2>
+              <p class="project-desc">
+                A high-performance real-time multiplayer quiz platform engineered as a self-hosted alternative to Mentimeter and Kahoot for interactive sessions (supporting up to 200 concurrent live participants). Built with full-duplex WebSocket architecture, robust session state management, and strict server-side validation.
+              </p>
+              <ul class="project-features">
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Dedicated host presentation dashboard and mobile-optimized participant join experience.</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Six-digit room PINs, nickname sanitization, rate limiting, and session state persistence.</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Synchronized real-time questions, live countdown timers, instantaneous answer evaluation, and leaderboards via Socket.IO.</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>PostgreSQL database persistence with Supabase authentication integration.</span>
+                </li>
+              </ul>
+              <div class="project-tech">
+                <span class="tech-pill">Next.js</span>
+                <span class="tech-pill">React</span>
+                <span class="tech-pill">Node.js</span>
+                <span class="tech-pill">Express</span>
+                <span class="tech-pill">Socket.IO</span>
+                <span class="tech-pill">PostgreSQL</span>
+                <span class="tech-pill">Tailwind CSS</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a href="https://quiz.endlessus.in" class="btn-live-demo" target="_blank" rel="noopener noreferrer">
+                <span>Launch Live Platform</span>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+              <a href="https://github.com/mihrajmashoor8301-collab/quiz-platform" class="btn-github" target="_blank" rel="noopener noreferrer">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>View Repository</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 2. CALION Academy -->
+          <div class="project-card featured-platform filterable-card" data-category="platform security">
+            <div class="project-top">
+              <div class="project-type-row">
+                <span class="project-category">Cybersecurity Education Platform</span>
+                <span class="project-badge badge-completed">Completed Platform</span>
+              </div>
+              <h2 class="project-title" style="font-size: 1.45rem;">CALION Academy — Interactive Learning Platform</h2>
+              <p class="project-desc">
+                A structured cybersecurity education platform built around progressive learning pathways, hands-on security rooms, and practical lab environments. Designed to provide guided, accessible cybersecurity training with real-time feedback and state persistence.
+              </p>
+              <ul class="project-features">
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Structured cybersecurity learning pathways engineered for hands-on conceptual mastery.</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Complete 45-room Pre-Security foundational pathway covering networking, Linux, and web security.</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Practical laboratory exercises with interactive walk-throughs and terminal simulations.</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Supabase cloud authentication and cross-device learning progress synchronization.</span>
+                </li>
+              </ul>
+              <div class="project-tech">
+                <span class="tech-pill">HTML5 / CSS3</span>
+                <span class="tech-pill">TypeScript</span>
+                <span class="tech-pill">Supabase Auth</span>
+                <span class="tech-pill">Cloud Database</span>
+                <span class="tech-pill">Cloudflare Pages</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a href="https://learning.endlessus.in" class="btn-live-demo" target="_blank" rel="noopener noreferrer">
+                <span>Launch Live Platform</span>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+              <a href="https://github.com/mihrajmashoor8301-collab/mihrajmashoor8301-collab.github.io" class="btn-github" target="_blank" rel="noopener noreferrer">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>View Repository</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 3. CALION Tools -->
+          <div class="project-card featured-platform filterable-card" data-category="platform security" style="grid-column: span 2;">
+            <div class="project-top">
+              <div class="project-type-row">
+                <span class="project-category">Client-Side Security Utilities</span>
+                <span class="project-badge badge-completed">Completed Platform</span>
+              </div>
+              <h2 class="project-title" style="font-size: 1.45rem;">CALION Tools — Client-Side Security &amp; Analysis Toolkit</h2>
+              <p class="project-desc">
+                A high-performance browser-based cybersecurity toolkit containing 14 practical utilities for security analysis and everyday technical workflows. Engineered with 100% in-browser processing using pure TypeScript 5.7 and Web Crypto APIs — guaranteeing absolute data privacy with zero remote server telemetry.
+              </p>
+              <ul class="project-features" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px 24px;">
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Multi-format encoders &amp; decoders (Base64 UTF-8/URL-safe, Hex, URL, HTML, Binary).</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Cryptographic hash generation (SHA-1/256/384/512) and heuristic hash algorithm identification.</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Shannon entropy calculation (0.0&ndash;8.0 bits/byte) and canonical 16-byte hex dump generator.</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>IPv4/CIDR subnet calculator, client-side JWT claims inspector &amp; Unix timestamp converter.</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>ReDoS-protected Web Worker regex tester with configurable execution timeouts.</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Common ports reference directory, interactive Nmap command synthesizer &amp; defensive payload analysis.</span>
+                </li>
+              </ul>
+              <div class="project-tech">
+                <span class="tech-pill">TypeScript 5.7</span>
+                <span class="tech-pill">Vite 6</span>
+                <span class="tech-pill">Web Crypto API</span>
+                <span class="tech-pill">Web Workers</span>
+                <span class="tech-pill">Node.js Test Runner</span>
+                <span class="tech-pill">Zero Runtime Dependencies</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a href="https://tools.endlessus.in" class="btn-live-demo" target="_blank" rel="noopener noreferrer">
+                <span>Launch Live Platform</span>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+              <a href="https://github.com/mihrajmashoor8301-collab/calion-tools" class="btn-github" target="_blank" rel="noopener noreferrer">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>View Repository</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 4. CyberAI Calion -->
+          <div class="project-card filterable-card" data-category="security">
+            <div class="project-top">
+              <div class="project-type-row">
+                <span class="project-category">Penetration Testing Toolkit</span>
+                <span class="project-badge badge-completed">Completed Software</span>
+              </div>
+              <h2 class="project-title" style="font-size: 1.35rem;">CyberAI Calion — Interactive Pentesting Toolkit</h2>
+              <p class="project-desc">
+                A Python-based interactive penetration testing toolkit equipped with a clean, menu-driven CLI interface. Unifies network scanning, automated web audits, vulnerability lookups, and executive report synthesis into a streamlined command workflow.
+              </p>
+              <ul class="project-features">
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Target locking mechanism and Nmap-based network reconnaissance (quick, full, and vulnerability scans).</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Automated web security auditing (HTTP headers, SSL/TLS checks, CSRF, and XSS indicators).</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Directory brute-forcing and real-time National Vulnerability Database (NVD) CVE lookups.</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Exploit registry with controlled PoC verification and automated HTML, JSON, and PDF reporting.</span>
+                </li>
+              </ul>
+              <div class="project-tech">
+                <span class="tech-pill">Python 3</span>
+                <span class="tech-pill">Nmap</span>
+                <span class="tech-pill">NVD REST API</span>
+                <span class="tech-pill">BeautifulSoup</span>
+                <span class="tech-pill">ReportLab</span>
+                <span class="tech-pill">Bash</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/mihrajmashoor8301-collab/cyberai" class="btn-github" target="_blank" rel="noopener noreferrer">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>View Repository</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 5. OpenCode Persistent Memory -->
+          <div class="project-card filterable-card" data-category="systems">
+            <div class="project-top">
+              <div class="project-type-row">
+                <span class="project-category">AI Infrastructure &amp; Tooling</span>
+                <span class="project-badge badge-completed">Completed Software</span>
+              </div>
+              <h2 class="project-title" style="font-size: 1.35rem;">OpenCode Persistent Memory</h2>
+              <p class="project-desc">
+                An independent long-term memory integration for the OpenCode AI coding assistant. Bridges local Ollama models with an authoritative SQLite database and ChromaDB vector index to retain durable context and decisions across tasks with zero cloud dependencies.
+              </p>
+              <ul class="project-features">
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Authoritative SQLite storage coupled with ChromaDB semantic vector search and keyword fallback.</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Autonomous memory extraction on idle sessions via local Ollama models (<code style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-emerald);">gemma4:12b</code>).</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Automated regex secret redaction prior to vectorization to safeguard credentials.</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Includes 6 CLI utilities for manual searching, storing, updating, forgetting, and inspection.</span>
+                </li>
+              </ul>
+              <div class="project-tech">
+                <span class="tech-pill">Python 3</span>
+                <span class="tech-pill">SQLite</span>
+                <span class="tech-pill">ChromaDB</span>
+                <span class="tech-pill">Ollama</span>
+                <span class="tech-pill">TypeScript</span>
+                <span class="tech-pill">Vector Embeddings</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/mihrajmashoor8301-collab/opencode-persistent-memory" class="btn-github" target="_blank" rel="noopener noreferrer">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>View Repository</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 6. PredSenseLinux Control Center -->
+          <div class="project-card filterable-card" data-category="systems" style="grid-column: span 2;">
+            <div class="project-top">
+              <div class="project-type-row">
+                <span class="project-category">Linux Systems &amp; Hardware Engineering</span>
+                <span class="project-badge badge-completed">Completed Software</span>
+              </div>
+              <h2 class="project-title" style="font-size: 1.45rem;">PredSenseLinux — Hardware &amp; Thermal Control Center</h2>
+              <p class="project-desc">
+                A native Tkinter desktop hardware management and telemetry control center for Acer Predator and Nitro laptops running Linux. Directly communicates with the Linuwu-Sense kernel module via sysfs platform interfaces to provide comprehensive hardware tuning and diagnostics.
+              </p>
+              <ul class="project-features" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px 24px;">
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Live sysfs telemetry capturing CPU/GPU package temperatures and dual fan RPM sensors.</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Animated fan speed management with Auto, Max, and Custom curves.</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Full 4-zone RGB keyboard lighting control with color-wheel selectors, static colors, and dynamic effects.</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Separate AC and battery thermal profiles switched automatically during operation.</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Battery health threshold limiter, battery calibration triggers, and USB charging configuration.</span>
+                </li>
+                <li class="project-feature-item">
+                  <span class="project-feature-icon">▹</span>
+                  <span>Packaged Debian systemd service helper for non-root desktop operation.</span>
+                </li>
+              </ul>
+              <div class="project-tech">
+                <span class="tech-pill">Python 3</span>
+                <span class="tech-pill">Tkinter</span>
+                <span class="tech-pill">Linux Sysfs</span>
+                <span class="tech-pill">Kernel Modules</span>
+                <span class="tech-pill">Systemd</span>
+                <span class="tech-pill">Debian Packaging</span>
+                <span class="tech-pill">Bash</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/mihrajmashoor8301-collab/predator-sense-custom-for-linux" class="btn-github" target="_blank" rel="noopener noreferrer">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>Control Center Repository</span>
+              </a>
+              <a href="https://github.com/mihrajmashoor8301-collab/predator-sense-custom-for-linux-installer" class="btn-github" target="_blank" rel="noopener noreferrer">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>Installer Repository</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div id="no-results-msg" style="display: none; text-align: center; padding: 48px; color: var(--text-muted); font-family: var(--font-mono);">
+          No matching projects found for your query.
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div>
+            <div class="footer-brand">Mihraj Mashhoor K</div>
+            <div class="footer-tagline">Personal Cybersecurity Portfolio &amp; Engineering Dossier</div>
+          </div>
+
+          <ul class="footer-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+            <li><a href="/certifications.html">Certifications</a></li>
+            <li><a href="/resume.html">Web Resume</a></li>
+            <li><a href="/#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <div>&copy; 2026 Mihraj Mashhoor K. All rights reserved.</div>
+          <div style="font-family: var(--font-mono); font-size: 0.775rem;">
+            <span>Hosted Independently</span>
+            <span style="color: var(--accent-emerald); margin: 0 6px;">&bull;</span>
+            <span>portfolio.endlessus.in</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="/scripts/main.js"></script>
+  <script src="/scripts/interactive.js"></script>
+</body>
+</html>
