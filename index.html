@@ -230,124 +230,330 @@
         <div class="container">
           <div class="section-header">
             <span class="section-tag">Featured Work</span>
-            <h2 class="section-title">Genuine Engineering Projects</h2>
-            <p class="section-desc">Practical security tools, systems software, and local AI pipelines built from first principles.</p>
+            <h2 class="section-title">Flagship Platforms &amp; Engineering Projects</h2>
+            <p class="section-desc">Production web platforms, client-side cybersecurity utilities, and systems software built from verified specifications.</p>
+          </div>
+
+          <!-- Subsection 1: Production Web Platforms -->
+          <div class="subsection-heading">
+            <h3 class="subsection-title">Full-Stack Platforms &amp; Production Applications</h3>
+            <span class="subsection-tag">Platform Deployments</span>
           </div>
 
           <div class="projects-grid">
-            <!-- Project 1: SentinelAI -->
-            <div class="project-card featured">
+            <!-- Project 1: Quiz Platform -->
+            <div class="project-card featured-platform">
               <div class="project-top">
-                <span class="project-category">Security Automation &amp; Triage</span>
-                <h3 class="project-title">SentinelAI — Autonomous Security Assistant &amp; Vulnerability Triage</h3>
+                <div class="project-type-row">
+                  <span class="project-category">Full-Stack Real-Time Platform</span>
+                  <span class="project-badge badge-completed">Completed Platform</span>
+                </div>
+                <h3 class="project-title">Quiz Platform — Real-Time Multiplayer Quiz Engine</h3>
                 <p class="project-desc">
-                  An autonomous security engineering tool that unifies reconnaissance log parsing, CVE correlation, and risk calculation. Employs local neural models via Ollama to structure complex scan outputs into actionable remediation roadmaps with zero external cloud data leakage.
+                  A high-performance real-time multiplayer quiz platform engineered as a self-hosted alternative to Mentimeter and Kahoot for interactive sessions (supporting up to 200 concurrent participants). Built with full-duplex WebSocket architecture, robust state management, and strict server-side validation.
                 </p>
+                <ul class="project-features">
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Dedicated host presentation dashboard and seamless mobile participant experience.</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Six-digit room PIN join flows with nickname sanitization, rate limiting, and session persistence.</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Synchronized real-time questions, live countdown timers, instant answer evaluation, and leaderboards via Socket.IO.</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>PostgreSQL database persistence with Supabase authentication integration.</span>
+                  </li>
+                </ul>
+                <div class="project-tech">
+                  <span class="tech-pill">Next.js</span>
+                  <span class="tech-pill">React</span>
+                  <span class="tech-pill">Node.js</span>
+                  <span class="tech-pill">Express</span>
+                  <span class="tech-pill">Socket.IO</span>
+                  <span class="tech-pill">PostgreSQL</span>
+                  <span class="tech-pill">Tailwind CSS</span>
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="https://quiz.endlessus.in" class="btn-live-demo" target="_blank" rel="noopener noreferrer">
+                  <span>Live Platform</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                </a>
+                <a href="https://github.com/mihrajmashoor8301-collab/quiz-platform" class="btn-github" target="_blank" rel="noopener noreferrer">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>Repository</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Project 2: CALION Academy -->
+            <div class="project-card featured-platform">
+              <div class="project-top">
+                <div class="project-type-row">
+                  <span class="project-category">Cybersecurity Learning Platform</span>
+                  <span class="project-badge badge-completed">Completed Platform</span>
+                </div>
+                <h3 class="project-title">CALION Academy — Interactive Learning Platform</h3>
+                <p class="project-desc">
+                  A structured cybersecurity education platform built around progressive learning pathways, hands-on security rooms, and practical lab environments. Designed to provide guided, accessible cybersecurity training with real-time feedback and state persistence.
+                </p>
+                <ul class="project-features">
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Structured cybersecurity learning pathways engineered for hands-on conceptual mastery.</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Complete 45-room Pre-Security foundational pathway covering networking, Linux, and web security.</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Practical laboratory exercises with interactive walk-throughs and terminal simulations.</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Supabase cloud authentication and cross-device learning progress synchronization.</span>
+                  </li>
+                </ul>
+                <div class="project-tech">
+                  <span class="tech-pill">HTML5 / CSS3</span>
+                  <span class="tech-pill">TypeScript</span>
+                  <span class="tech-pill">Supabase Auth</span>
+                  <span class="tech-pill">Cloud Database</span>
+                  <span class="tech-pill">Cloudflare Pages</span>
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="https://learning.endlessus.in" class="btn-live-demo" target="_blank" rel="noopener noreferrer">
+                  <span>Live Platform</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                </a>
+                <a href="https://github.com/mihrajmashoor8301-collab/mihrajmashoor8301-collab.github.io" class="btn-github" target="_blank" rel="noopener noreferrer">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>Repository</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Project 3: CALION Tools -->
+            <div class="project-card featured-platform" style="grid-column: span 2;">
+              <div class="project-top">
+                <div class="project-type-row">
+                  <span class="project-category">Client-Side Security Utilities</span>
+                  <span class="project-badge badge-completed">Completed Platform</span>
+                </div>
+                <h3 class="project-title">CALION Tools — Client-Side Security &amp; Analysis Toolkit</h3>
+                <p class="project-desc">
+                  A high-performance browser-based cybersecurity toolkit containing 14 practical utilities for security analysis and everyday technical workflows. Engineered with 100% in-browser processing using pure TypeScript 5.7 and Web Crypto APIs — guaranteeing absolute data privacy with zero remote server telemetry.
+                </p>
+                <ul class="project-features" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px 24px;">
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Multi-format encoders &amp; decoders (Base64 UTF-8/URL-safe, Hex, URL, HTML, Binary).</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Cryptographic hash generation (SHA-1/256/384/512) and heuristic hash algorithm identification.</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Shannon entropy calculation (0.0&ndash;8.0 bits/byte) and canonical 16-byte hex dump generator.</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>IPv4/CIDR subnet calculator, client-side JWT claims inspector &amp; Unix timestamp converter.</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>ReDoS-protected Web Worker regex tester with configurable execution timeouts.</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Common ports reference directory, interactive Nmap command synthesizer &amp; defensive payload analysis.</span>
+                  </li>
+                </ul>
+                <div class="project-tech">
+                  <span class="tech-pill">TypeScript 5.7</span>
+                  <span class="tech-pill">Vite 6</span>
+                  <span class="tech-pill">Web Crypto API</span>
+                  <span class="tech-pill">Web Workers</span>
+                  <span class="tech-pill">Node.js Test Runner</span>
+                  <span class="tech-pill">Zero Runtime Dependencies</span>
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="https://tools.endlessus.in" class="btn-live-demo" target="_blank" rel="noopener noreferrer">
+                  <span>Live Platform</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                </a>
+                <a href="https://github.com/mihrajmashoor8301-collab/calion-tools" class="btn-github" target="_blank" rel="noopener noreferrer">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>Repository</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Subsection 2: Cybersecurity Software & Systems Engineering -->
+          <div class="subsection-heading">
+            <h3 class="subsection-title">Security Tooling &amp; Systems Software</h3>
+            <span class="subsection-tag">Open Source Codebases</span>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Project 4: CyberAI Calion -->
+            <div class="project-card">
+              <div class="project-top">
+                <div class="project-type-row">
+                  <span class="project-category">Penetration Testing Toolkit</span>
+                  <span class="project-badge badge-completed">Completed Software</span>
+                </div>
+                <h3 class="project-title">CyberAI Calion — Interactive Pentesting Toolkit</h3>
+                <p class="project-desc">
+                  A Python-based interactive penetration testing toolkit equipped with a clean, menu-driven CLI interface. Unifies network scanning, automated web audits, vulnerability lookups, and executive report synthesis into a streamlined command workflow.
+                </p>
+                <ul class="project-features">
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Target locking mechanism and Nmap-based network reconnaissance (quick, full, and vulnerability scans).</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Automated web security auditing (HTTP headers, SSL/TLS checks, CSRF, and XSS indicators).</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Directory brute-forcing and real-time National Vulnerability Database (NVD) CVE lookups.</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Exploit registry with controlled PoC verification and automated HTML, JSON, and PDF reporting.</span>
+                  </li>
+                </ul>
                 <div class="project-tech">
                   <span class="tech-pill">Python 3</span>
-                  <span class="tech-pill">Ollama</span>
-                  <span class="tech-pill">CVE Intelligence</span>
-                  <span class="tech-pill">CVSS Scoring</span>
-                  <span class="tech-pill">Local Compute</span>
+                  <span class="tech-pill">Nmap</span>
+                  <span class="tech-pill">NVD REST API</span>
+                  <span class="tech-pill">BeautifulSoup</span>
+                  <span class="tech-pill">ReportLab</span>
+                  <span class="tech-pill">Bash</span>
                 </div>
               </div>
               <div class="project-links">
-                <a href="https://github.com/mihrajmashoor8301-collab/cyberai" class="project-link" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/mihrajmashoor8301-collab/cyberai" class="btn-github" target="_blank" rel="noopener noreferrer">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
                   <span>View Repository</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
                 </a>
               </div>
             </div>
 
-            <!-- Project 2: Autonomous Pentesting Agent -->
+            <!-- Project 5: OpenCode Persistent Memory -->
             <div class="project-card">
               <div class="project-top">
-                <span class="project-category">Agentic Architecture</span>
-                <h3 class="project-title">Autonomous Pentesting Agent</h3>
-                <p class="project-desc">
-                  An agentic decision-making framework designed to automate educational laboratory workflows. Coordinates tool planning, execution validation, output parsing, and structured reporting under strict sandboxing guardrails.
-                </p>
-                <div class="project-tech">
-                  <span class="tech-pill">Python</span>
-                  <span class="tech-pill">Qwen3-Coder</span>
-                  <span class="tech-pill">Tool Sandboxing</span>
-                  <span class="tech-pill">Process Control</span>
+                <div class="project-type-row">
+                  <span class="project-category">AI Infrastructure &amp; Tooling</span>
+                  <span class="project-badge badge-completed">Completed Software</span>
                 </div>
-              </div>
-              <div class="project-links">
-                <a href="https://github.com/mihrajmashoor8301-collab/Projects" class="project-link" target="_blank" rel="noopener noreferrer">
-                  <span>View Repository</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
-                </a>
-              </div>
-            </div>
-
-            <!-- Project 3: CyberAI -->
-            <div class="project-card">
-              <div class="project-top">
-                <span class="project-category">Telemetry Analysis</span>
-                <h3 class="project-title">CyberAI — Telemetry &amp; Log Analyzer</h3>
-                <p class="project-desc">
-                  Telemetry ingestion platform converting raw system logs, authentication streams, and firewall dumps into structured security incident timelines with contextual risk scoring.
-                </p>
-                <div class="project-tech">
-                  <span class="tech-pill">Python</span>
-                  <span class="tech-pill">Log Parsing</span>
-                  <span class="tech-pill">Incident Timelines</span>
-                  <span class="tech-pill">Regex Engine</span>
-                </div>
-              </div>
-              <div class="project-links">
-                <a href="https://github.com/mihrajmashoor8301-collab/cyberai" class="project-link" target="_blank" rel="noopener noreferrer">
-                  <span>View Repository</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
-                </a>
-              </div>
-            </div>
-
-            <!-- Project 4: OpenCode Persistent Memory -->
-            <div class="project-card">
-              <div class="project-top">
-                <span class="project-category">Developer Infrastructure</span>
                 <h3 class="project-title">OpenCode Persistent Memory</h3>
                 <p class="project-desc">
-                  Portable persistent-memory integration featuring automatic background extraction, SQLite-authoritative storage, and dual-engine retrieval combining Chroma semantic search with resilient keyword fallback.
+                  An independent long-term memory integration for the OpenCode AI coding assistant. Bridges local Ollama models with an authoritative SQLite database and ChromaDB vector index to retain durable context and decisions across tasks with zero cloud dependencies.
                 </p>
+                <ul class="project-features">
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Authoritative SQLite storage coupled with ChromaDB semantic vector search and keyword fallback.</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Autonomous memory extraction on idle sessions via local Ollama models (<code style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-emerald);">gemma4:12b</code>).</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Automated regex secret redaction prior to vectorization to safeguard credentials.</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Includes 6 CLI utilities for manual searching, storing, updating, forgetting, and inspection.</span>
+                  </li>
+                </ul>
                 <div class="project-tech">
-                  <span class="tech-pill">TypeScript</span>
-                  <span class="tech-pill">Python</span>
+                  <span class="tech-pill">Python 3</span>
                   <span class="tech-pill">SQLite</span>
                   <span class="tech-pill">ChromaDB</span>
                   <span class="tech-pill">Ollama</span>
+                  <span class="tech-pill">TypeScript</span>
+                  <span class="tech-pill">Vector Embeddings</span>
                 </div>
               </div>
               <div class="project-links">
-                <a href="https://github.com/mihrajmashoor8301-collab/opencode-persistent-memory" class="project-link" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/mihrajmashoor8301-collab/opencode-persistent-memory" class="btn-github" target="_blank" rel="noopener noreferrer">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
                   <span>View Repository</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
                 </a>
               </div>
             </div>
 
-            <!-- Project 5: PredSenseLinux -->
-            <div class="project-card">
+            <!-- Project 6: PredSenseLinux -->
+            <div class="project-card" style="grid-column: span 2;">
               <div class="project-top">
-                <span class="project-category">Linux Systems Engineering</span>
-                <h3 class="project-title">PredSenseLinux Control Center</h3>
+                <div class="project-type-row">
+                  <span class="project-category">Linux Systems &amp; Hardware Engineering</span>
+                  <span class="project-badge badge-completed">Completed Software</span>
+                </div>
+                <h3 class="project-title">PredSenseLinux — Hardware &amp; Thermal Control Center</h3>
                 <p class="project-desc">
-                  Hardware and thermal monitoring suite for Acer Predator and Nitro laptops running Linux. Implements custom kernel module interaction, fan curve control, and an intuitive desktop GUI.
+                  A native Tkinter desktop hardware management and telemetry control center for Acer Predator and Nitro laptops running Linux. Directly communicates with the Linuwu-Sense kernel module via sysfs platform interfaces to provide comprehensive hardware tuning and diagnostics.
                 </p>
+                <ul class="project-features" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px 24px;">
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Live sysfs telemetry capturing CPU/GPU package temperatures and dual fan RPM sensors.</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Animated fan speed management with Auto, Max, and Custom curves.</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Full 4-zone RGB keyboard lighting control with color-wheel selectors, static colors, and dynamic effects.</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Separate AC and battery thermal profiles switched automatically during operation.</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Battery health threshold limiter, battery calibration triggers, and USB charging configuration.</span>
+                  </li>
+                  <li class="project-feature-item">
+                    <span class="project-feature-icon">▹</span>
+                    <span>Packaged Debian systemd service helper for non-root desktop operation.</span>
+                  </li>
+                </ul>
                 <div class="project-tech">
-                  <span class="tech-pill">C</span>
-                  <span class="tech-pill">Bash</span>
+                  <span class="tech-pill">Python 3</span>
+                  <span class="tech-pill">Tkinter</span>
+                  <span class="tech-pill">Linux Sysfs</span>
                   <span class="tech-pill">Kernel Modules</span>
-                  <span class="tech-pill">Linux Hardware API</span>
+                  <span class="tech-pill">Systemd</span>
+                  <span class="tech-pill">Debian Packaging</span>
+                  <span class="tech-pill">Bash</span>
                 </div>
               </div>
               <div class="project-links">
-                <a href="https://github.com/mihrajmashoor8301-collab/predator-sense-custom-for-linux" class="project-link" target="_blank" rel="noopener noreferrer">
-                  <span>View Repository</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+                <a href="https://github.com/mihrajmashoor8301-collab/predator-sense-custom-for-linux" class="btn-github" target="_blank" rel="noopener noreferrer">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>Control Center Repository</span>
+                </a>
+                <a href="https://github.com/mihrajmashoor8301-collab/predator-sense-custom-for-linux-installer" class="btn-github" target="_blank" rel="noopener noreferrer">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>Installer Repository</span>
                 </a>
               </div>
             </div>
@@ -375,10 +581,10 @@
               </div>
               <ul class="skill-items">
                 <li class="skill-item"><span class="skill-bullet"></span><span>Penetration Testing Methodologies</span></li>
-                <li class="skill-item"><span class="skill-bullet"></span><span>Vulnerability Assessment</span></li>
-                <li class="skill-item"><span class="skill-bullet"></span><span>OWASP Top 10 Web Security</span></li>
-                <li class="skill-item"><span class="skill-bullet"></span><span>Network Reconnaissance &amp; Scanning</span></li>
-                <li class="skill-item"><span class="skill-bullet"></span><span>Linux Privilege Escalation Basics</span></li>
+                <li class="skill-item"><span class="skill-bullet"></span><span>Vulnerability Assessment &amp; CVE Analysis</span></li>
+                <li class="skill-item"><span class="skill-bullet"></span><span>OWASP Top 10 Web Application Security</span></li>
+                <li class="skill-item"><span class="skill-bullet"></span><span>Network Reconnaissance &amp; Port Scanning</span></li>
+                <li class="skill-item"><span class="skill-bullet"></span><span>Linux Privilege Escalation Fundamentals</span></li>
                 <li class="skill-item"><span class="skill-bullet"></span><span>Credential Security &amp; Hash Analysis</span></li>
               </ul>
             </div>
@@ -390,12 +596,12 @@
                 <h3 class="skill-cat-title">Security Tools</h3>
               </div>
               <ul class="skill-items">
-                <li class="skill-item"><span class="skill-bullet"></span><span>Kali Linux &amp; Parrot OS</span></li>
-                <li class="skill-item"><span class="skill-bullet"></span><span>Nmap (Recon &amp; Scripting Engine)</span></li>
-                <li class="skill-item"><span class="skill-bullet"></span><span>Burp Suite Community</span></li>
-                <li class="skill-item"><span class="skill-bullet"></span><span>Wireshark &amp; tcpdump</span></li>
+                <li class="skill-item"><span class="skill-bullet"></span><span>Kali Linux &amp; Parrot Security OS</span></li>
+                <li class="skill-item"><span class="skill-bullet"></span><span>Nmap (Network Mapping &amp; NSE Scripts)</span></li>
+                <li class="skill-item"><span class="skill-bullet"></span><span>Burp Suite (Proxy, Repeater, Intruder)</span></li>
+                <li class="skill-item"><span class="skill-bullet"></span><span>Wireshark &amp; tcpdump Packet Analysis</span></li>
                 <li class="skill-item"><span class="skill-bullet"></span><span>Metasploit Framework</span></li>
-                <li class="skill-item"><span class="skill-bullet"></span><span>John the Ripper &amp; Hydra</span></li>
+                <li class="skill-item"><span class="skill-bullet"></span><span>John the Ripper &amp; Hashcat</span></li>
               </ul>
             </div>
 
@@ -406,11 +612,11 @@
                 <h3 class="skill-cat-title">Development</h3>
               </div>
               <ul class="skill-items">
-                <li class="skill-item"><span class="skill-bullet"></span><span>Python 3 (Security Scripting &amp; Sockets)</span></li>
-                <li class="skill-item"><span class="skill-bullet"></span><span>C Programming (Systems &amp; Memory)</span></li>
+                <li class="skill-item"><span class="skill-bullet"></span><span>Python 3 (Security Scripting, Sockets, APIs)</span></li>
+                <li class="skill-item"><span class="skill-bullet"></span><span>JavaScript &amp; TypeScript (Node / Next.js)</span></li>
                 <li class="skill-item"><span class="skill-bullet"></span><span>Bash &amp; POSIX Shell Scripting</span></li>
-                <li class="skill-item"><span class="skill-bullet"></span><span>JavaScript &amp; TypeScript</span></li>
-                <li class="skill-item"><span class="skill-bullet"></span><span>HTML5 &amp; CSS3 / Modern Styling</span></li>
+                <li class="skill-item"><span class="skill-bullet"></span><span>C Programming (Systems &amp; Memory)</span></li>
+                <li class="skill-item"><span class="skill-bullet"></span><span>SQL (PostgreSQL &amp; SQLite Queries)</span></li>
                 <li class="skill-item"><span class="skill-bullet"></span><span>Git &amp; GitHub Version Control</span></li>
               </ul>
             </div>
@@ -422,12 +628,12 @@
                 <h3 class="skill-cat-title">Systems &amp; Infra</h3>
               </div>
               <ul class="skill-items">
-                <li class="skill-item"><span class="skill-bullet"></span><span>Linux Administration (Ubuntu/Debian)</span></li>
-                <li class="skill-item"><span class="skill-bullet"></span><span>TCP/IP, UDP, DNS, DHCP, HTTP/S</span></li>
-                <li class="skill-item"><span class="skill-bullet"></span><span>Subnetting &amp; CIDR Calculation</span></li>
-                <li class="skill-item"><span class="skill-bullet"></span><span>UFW &amp; Host Hardening</span></li>
-                <li class="skill-item"><span class="skill-bullet"></span><span>Docker Containerization</span></li>
-                <li class="skill-item"><span class="skill-bullet"></span><span>Local AI Compute (Ollama Server)</span></li>
+                <li class="skill-item"><span class="skill-bullet"></span><span>Linux System Administration (Debian/Ubuntu)</span></li>
+                <li class="skill-item"><span class="skill-bullet"></span><span>TCP/IP, UDP, DNS, DHCP, HTTP/S Architectures</span></li>
+                <li class="skill-item"><span class="skill-bullet"></span><span>Subnetting, Routing &amp; CIDR Calculation</span></li>
+                <li class="skill-item"><span class="skill-bullet"></span><span>UFW &amp; Host Hardening Configurations</span></li>
+                <li class="skill-item"><span class="skill-bullet"></span><span>Docker Containerization Basics</span></li>
+                <li class="skill-item"><span class="skill-bullet"></span><span>Local AI Compute (Ollama Inference)</span></li>
               </ul>
             </div>
           </div>
@@ -435,68 +641,99 @@
       </section>
 
       <!-- =========================================================================
-           E. CERTIFICATIONS SECTION
+           E. CERTIFICATIONS & COMPLETED LEARNING PATHS SECTION
            ========================================================================= -->
       <section id="certifications" class="cert-section">
         <div class="container">
           <div class="section-header">
-            <span class="section-tag">Credentials</span>
-            <h2 class="section-title">Verified Certifications</h2>
-            <p class="section-desc">Formal accreditations and completed cybersecurity curriculum milestones.</p>
+            <span class="section-tag">Credentials &amp; Pathways</span>
+            <h2 class="section-title">Certifications &amp; Completed Learning Paths</h2>
+            <p class="section-desc">Distinguishing formal professional certification from completed practical learning tracks and hands-on laboratory milestones.</p>
           </div>
 
           <div class="cert-grid">
             <!-- Cert 1: Google Cybersecurity -->
             <div class="cert-card">
               <div class="cert-top">
-                <span class="cert-issuer">Google / Coursera</span>
+                <div class="cert-type-row">
+                  <span class="cert-issuer">Google / Coursera</span>
+                  <span class="cert-badge badge-prof">Professional Certificate</span>
+                </div>
                 <h3 class="cert-title">Google Cybersecurity Professional Certificate</h3>
+                <div class="cert-date">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  <span>Completed: Feb 23, 2026</span>
+                </div>
                 <p class="cert-meta">
-                  Comprehensive eight-course professional series covering security models, Linux command line, network security, Python scripting, SIEM tools, detection and response methodologies, and incident handling. Completed Feb 2026.
+                  Rigorous nine-course professional curriculum developed by Google. Covers cybersecurity models, Linux command line, network security protocols, Python automation, SIEM tools, detection and response methodologies, and incident management frameworks.
                 </p>
               </div>
               <div class="cert-footer">
                 <span class="cert-id">ID: OLK16MA4UQ7Z</span>
-                <a href="/assets/docs/Google_Cybersecurity_Certificate.pdf" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">
-                  <span>View PDF</span>
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
-                </a>
+                <div class="cert-actions">
+                  <a href="https://coursera.org/verify/professional-cert/OLK16MA4UQ7Z" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">
+                    <span>Verify</span>
+                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                  </a>
+                  <a href="/assets/docs/Google_Cybersecurity_Certificate.pdf" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">
+                    <span>View PDF</span>
+                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+                  </a>
+                </div>
               </div>
             </div>
 
-            <!-- Cert 2: THM Cyber Security 101 -->
+            <!-- Cert 2: THM Pre Security -->
             <div class="cert-card">
               <div class="cert-top">
-                <span class="cert-issuer">TryHackMe</span>
-                <h3 class="cert-title">Cyber Security 101 Learning Pathway</h3>
-                <p class="cert-meta">
-                  In-depth practical curriculum covering transport protocol structures, packet analysis in Wireshark, web application security concepts, cryptography, and defensive auditing. Completed Aug 2026.
-                </p>
-              </div>
-              <div class="cert-footer">
-                <span class="cert-id">ID: THM-LMVHD9LP6F</span>
-                <a href="/assets/docs/THM_CyberSecurity101_Certificate.pdf" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">
-                  <span>View PDF</span>
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
-                </a>
-              </div>
-            </div>
-
-            <!-- Cert 3: THM Pre Security -->
-            <div class="cert-card">
-              <div class="cert-top">
-                <span class="cert-issuer">TryHackMe</span>
+                <div class="cert-type-row">
+                  <span class="cert-issuer">TryHackMe</span>
+                  <span class="cert-badge badge-pathway">Learning Pathway</span>
+                </div>
                 <h3 class="cert-title">Pre Security Learning Pathway</h3>
+                <div class="cert-date">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  <span>Completed: May 9, 2026 (19h 10m)</span>
+                </div>
                 <p class="cert-meta">
-                  Foundational pathway establishing core network architectures, OSI layers, IP addressing and subnetting, Linux command line essentials, and fundamental web request mechanisms. Completed May 2026.
+                  Comprehensive foundational curriculum covering network models (OSI layers, TCP/IP stack), IP addressing and CIDR subnetting, Linux command line fundamentals, and core web communication mechanisms. Certificate of completion awarded by TryHackMe.
                 </p>
               </div>
               <div class="cert-footer">
                 <span class="cert-id">ID: THM-O6NSA2SHXF</span>
-                <a href="/assets/docs/THM_PreSecurity_Certificate.pdf" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">
-                  <span>View PDF</span>
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
-                </a>
+                <div class="cert-actions">
+                  <a href="/assets/docs/THM_PreSecurity_Certificate.pdf" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">
+                    <span>View Certificate PDF</span>
+                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cert 3: THM Cyber Security 101 -->
+            <div class="cert-card">
+              <div class="cert-top">
+                <div class="cert-type-row">
+                  <span class="cert-issuer">TryHackMe</span>
+                  <span class="cert-badge badge-pathway">Learning Pathway</span>
+                </div>
+                <h3 class="cert-title">Cyber Security 101 Learning Pathway</h3>
+                <div class="cert-date">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  <span>Completed: Aug 13, 2026</span>
+                </div>
+                <p class="cert-meta">
+                  Practical cybersecurity curriculum covering network transport structures, packet capture analysis in Wireshark, web application security fundamentals, cryptography concepts, and defensive auditing methodologies. Certificate awarded by TryHackMe.
+                </p>
+              </div>
+              <div class="cert-footer">
+                <span class="cert-id">ID: THM-LMVHD9LP6F</span>
+                <div class="cert-actions">
+                  <a href="/assets/docs/THM_CyberSecurity101_Certificate.pdf" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">
+                    <span>View Certificate PDF</span>
+                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -510,43 +747,78 @@
         <div class="container">
           <div class="section-header centered">
             <span class="section-tag">Trajectory</span>
-            <h2 class="section-title">Cybersecurity Learning Journey</h2>
-            <p class="section-desc">Distinguishing academic study and hands-on laboratory milestones from professional employment.</p>
+            <h2 class="section-title">Cybersecurity Learning Journey &amp; Milestones</h2>
+            <p class="section-desc">Distinguishing academic engineering studies, active hands-on training tracks, and competitive laboratory achievements.</p>
           </div>
 
           <div class="timeline">
-            <!-- Timeline Item 1 -->
+            <!-- Timeline Item 1: Active In-Progress Track -->
             <div class="timeline-item">
-              <span class="timeline-badge">2026 &ndash; PRESENT</span>
+              <span class="timeline-badge">2026 &ndash; ACTIVE TRACK</span>
               <div class="timeline-content">
-                <h3>Junior Penetration Tester Pathway (Active Track)</h3>
-                <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px;">TryHackMe · Practical Offensive Security Track</p>
+                <h3>Junior Penetration Tester Pathway (TryHackMe)</h3>
+                <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px;">TryHackMe · Practical Offensive Security Track &middot; <strong style="color: #f59e0b;">In Progress</strong></p>
                 <p>
-                  Actively progressing through real-world penetration testing methodologies, active network scanning, advanced Burp Suite intercept workflows, web vulnerability assessment (SQLi, IDOR, XSS), and foundational Linux privilege escalation vectors.
+                  Actively progressing through real-world penetration testing methodologies, active network scanning, advanced Burp Suite intercept workflows, web vulnerability assessment (SQLi, IDOR, XSS, SSRF), and foundational Linux privilege escalation vectors.
                 </p>
+                <div class="progress-box">
+                  <div class="progress-header">
+                    <span class="progress-label">Pathway Completion Progress</span>
+                    <span class="progress-pct">~50% Completed</span>
+                  </div>
+                  <div class="progress-track">
+                    <div class="progress-fill" style="width: 50%;"></div>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <!-- Timeline Item 2 -->
+            <!-- Timeline Item 2: TryHackMe Practical Achievements -->
+            <div class="timeline-item">
+              <span class="timeline-badge">ACHIEVEMENTS</span>
+              <div class="timeline-content">
+                <h3>TryHackMe Practical Laboratory Milestones</h3>
+                <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px;">Hands-On Security Labs &amp; Competitive Standing</p>
+                <p>
+                  Demonstrated hands-on offensive and defensive problem-solving across simulated production environments, vulnerable virtual machines, and capture-the-flag challenges.
+                </p>
+                <div class="thm-achievements-row">
+                  <div class="thm-achievement-pill">
+                    <span style="color: #f59e0b;">🏆</span>
+                    <span><strong>Top 2% Globally</strong> on TryHackMe</span>
+                  </div>
+                  <div class="thm-achievement-pill">
+                    <span style="color: var(--accent-emerald);">💻</span>
+                    <span><strong>140+ Practical Labs</strong> Completed</span>
+                  </div>
+                  <a href="https://tryhackme.com/p/mihraj.io" class="thm-achievement-pill" target="_blank" rel="noopener noreferrer">
+                    <span>🔗</span>
+                    <span>View Profile: <strong>tryhackme.com/p/mihraj.io</strong> ↗</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Timeline Item 3: Completed Pathways & Professional Program -->
             <div class="timeline-item">
               <span class="timeline-badge">2025 &ndash; 2026</span>
               <div class="timeline-content">
-                <h3>Google Cybersecurity Professional Program &amp; THM 101</h3>
-                <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px;">Google &amp; TryHackMe · Verified Completion</p>
+                <h3>Google Cybersecurity Professional Program &amp; Foundation Pathways</h3>
+                <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px;">Google &amp; TryHackMe · Verified Completion Milestones</p>
                 <p>
-                  Completed comprehensive 8-course Google program covering SIEM tool telemetry, incident response frameworks, Python scripting, and detection controls. Simultaneously attained Top 2% global status on TryHackMe across 140+ machines.
+                  Completed Google's 9-course professional specialization covering SIEM telemetry, incident response playbooks, Python automation, and defensive detection controls. Simultaneously completed TryHackMe's Pre-Security and Cyber Security 101 learning paths with verified completion certificates.
                 </p>
               </div>
             </div>
 
-            <!-- Timeline Item 3 -->
+            <!-- Timeline Item 4: Undergraduate Degree -->
             <div class="timeline-item">
               <span class="timeline-badge">2024 &ndash; 2028</span>
               <div class="timeline-content">
                 <h3>B.Tech in Computer Science &amp; Engineering (Cybersecurity)</h3>
                 <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 8px;">MES College of Engineering, Kuttippuram, Kerala</p>
                 <p>
-                  Formal undergraduate engineering degree covering Operating Systems, Computer Networks, Discrete Mathematics, Cryptography, Data Structures, and Software Engineering.
+                  Formal undergraduate engineering degree covering Operating Systems, Computer Networks, Discrete Mathematics, Cryptography, Data Structures, and Software Systems Architecture.
                 </p>
               </div>
             </div>
